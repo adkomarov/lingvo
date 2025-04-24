@@ -1,0 +1,4 @@
+services:
+  lingvo.data_service:
+    class: Drupal\lingvo\Service\DataService
+    arguments: ['@database'] 

@@ -1,0 +1,29 @@
+lingvo.map:
+  path: "/lingvo/map"
+  defaults:
+    _controller: '\Drupal\lingvo\Controller\LingvoController::build'
+    _title: "Lingvo Map"
+  requirements:
+    _permission: "access content"
+
+lingvo.icon:
+  path: "/lingvo/icon/{iconId}"
+  defaults:
+    _controller: '\Drupal\lingvo\Controller\LingvoController::viewIcon'
+    _title: "Icon details"
+  requirements:
+    _permission: "access lingvo content"
+
+lingvo.data.service:
+  path: "/lingvo/data/words/{objectId}"
+  defaults:
+    _controller: '\Drupal\lingvo\Controller\LingvoController::getWordsForObject'
+  requirements:
+    _permission: "access lingvo content"
+
+lingvo.data.icon:
+  path: "/lingvo/data/icon/{iconId}"
+  defaults:
+    _controller: '\Drupal\lingvo\Controller\LingvoController::getIconData'
+  requirements:
+    _permission: "access lingvo content"

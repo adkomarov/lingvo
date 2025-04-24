@@ -1,0 +1,11 @@
+access lingvo content:
+  title: 'Access Lingvo content'
+  description: 'View lingvo maps and data'
+
+edit lingvo content:
+  title: 'Edit Lingvo content'
+  description: 'Modify lingvo data entries'
+
+administer lingvo:
+  title: 'Administer Lingvo module'
+  description: 'Perform administration tasks for Lingvo module' 

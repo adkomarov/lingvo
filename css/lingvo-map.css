@@ -1,0 +1,24 @@
+.lingvo-icon {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.lingvo-icon-default {
+  background-image: url('../images/icon-default.png');
+}
+
+.lingvo-icon-linguistic {
+  background-image: url('../images/icon-linguistic.png');
+}
+
+.lingvo-icon-historical {
+  background-image: url('../images/icon-historical.png');
+}
+
+.lingvo-icon:hover {
+  transform: scale(1.2);
+} 

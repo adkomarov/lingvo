@@ -1,0 +1,7 @@
+name: lingvo
+type: module
+description: 'Лингвистический атлас'
+package: custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:system 
